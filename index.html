@@ -75,17 +75,35 @@
                 <!-- DROPDOWN -->
             </div>
             <!-- DROPDOWN -->
-            <div class="dropdown col-1 pe-5">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="btn-group col-1">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa-solid fa-gear"></i>
                 </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                  <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Log Out</a></li>
                 </ul>
             </div>
+              </div>
+        </div>
+        <div class="row">
+            <nav>
+                <div class="nav nav-tabs col-2 offset-5" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                TEST CONTENT 1    
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    TEST CONTENT 2
+                </div>
+              </div>
         </div>
     </div>
     <!-- BOOTSTRAP JAVASCRIPT -->

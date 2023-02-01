@@ -3,5 +3,9 @@ i {
 }
 
 i.fa-brands.fa-instagram {
+    font-size: 20pt;
+}
+
+i fa-solid.fa-gear {
     font-size: 18pt;
 }
