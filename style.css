@@ -1,11 +1,22 @@
 i {
-    font-size: 11pt;
+    font-size: 14pt;
 }
 
 i.fa-brands.fa-instagram {
-    font-size: 20pt;
+    font-size: 19pt;
 }
 
 i fa-solid.fa-gear {
     font-size: 18pt;
+}
+
+div.gridHeight {
+    height: 360px;
+}
+
+.arFix img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
 }
