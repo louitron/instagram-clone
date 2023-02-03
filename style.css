@@ -9,10 +9,10 @@ i.fa-brands.fa-instagram {
 i fa-solid.fa-gear {
     font-size: 18pt;
 }
-
+/* 
 div.gridHeight {
-    height: 360px;
-}
+    height: 50vh;
+} */
 
 .arFix img {
     object-fit: cover;
